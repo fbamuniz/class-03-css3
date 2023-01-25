@@ -1,0 +1,30 @@
+/* A especificidade na hierarquia é sempre do filho para o pai. No caso abaixo, a cor selecionada será a da tag p #d36aa9 */
+
+*{
+    color: #dac680;
+
+}
+
+html{
+    color: #ff0000;
+
+}
+
+body{
+    color: #233fdf;
+
+}
+
+div{
+    color: #4a9226;
+
+}
+
+/* Com inherit ele herdará a cor do pai, no caso a div  */
+h1, p{
+    
+    color: initial;
+    /* Com initial ele herdará a cor do elemento mais alto, no caso o preto 
+    color: initial; */ 
+    /*color: #d36aa9;*/
+}

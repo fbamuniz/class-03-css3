@@ -1,0 +1,24 @@
+#anima-div  {
+  background-image: url("../imagens/ciclo-animacao.jpg");
+  width: 250px; /* largura do frame */
+  height: 240px; /* altura do frame */
+  animation: anima-sprite 1.0s steps(8) infinite;
+}
+
+  @keyframes anima-sprite {
+  from { background-position: 0px; }
+  to { background-position: -1920px; }
+}
+
+#anima-div-2  {
+  background: url("../imagens/sprite-multi_1.png") -0px -531px; /* coordenadas do primeiro objeto da cena */
+  height: 120px; /* altura do objeto da cena */
+  width: 120px; /* largura do objeto da cena */
+  animation: anima-sprite-2 1s steps(10) infinite;
+}
+
+  @keyframes anima-sprite-2 {
+  100% { background-position-x: -1200px; } /* faz a leitura do eixo x */
+  }
+
+/* Para achar coordenadas, visite: https://www.web2generators.com/graphism-tools/css-sprite-creator */

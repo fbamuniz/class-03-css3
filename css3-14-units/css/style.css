@@ -1,0 +1,95 @@
+/* Aplicação global em todos os elementos (use com cautela) */
+*{
+    font-family: Arial;
+}
+
+/* Aplicação global somente no HTML */
+html{
+    font-size: 32px;
+    font-family: Arial;
+}
+
+/* Aplicação global somente no body */
+body{
+    font-size: 16px;
+    font-family: Georgia;
+}
+
+/* Tamanho por px (pixel) */
+.pxSize{
+    font-size: 16px;
+}
+
+/* Tamanho por em. No exemplo, são 2 vezes o tamanho da tag pai (body), no caso, 32px */
+.emSize{
+    font-size: 2em;
+}
+
+/* Tamanho por rem. No exemplo, são 3 vezes o tamanho da tag html, no caso, 64px */
+.remSize{
+    font-size: 2rem;
+}
+
+/* Tamanho por ex. São 2 vezes o tamanho da letra x minúscula, definida na tag pai. Neste exemplo, a tag pai é o body e a fonte é Georgia */
+.exSize{
+    font-size: 6ex;
+}
+
+/* Tamanho em pt (points), 1pt = 1.3333px (para impressão) */
+.ptSize{
+    font-size: 20pt; 
+}
+
+/* Tamanho em pc (paicas),1pc = 16px (para impressão) */
+.pcSize{
+    font-size: 2pc; 
+}
+
+/* Tamanho em % é em relação a área da página (responsivo) */
+.div-1{
+    background-color:#eed622;
+    width: 8%;
+    height: 100px;
+}
+
+/* Tamanho em px corresponde aos pixels da tela */
+.div-2{
+    background-color: #eed622;
+    width: 100px;
+    height: 100px;
+}
+
+/* Tamanho em vw Corresponde a largura (width) da janela em porcentagem (responsivo) */
+.div-3{
+    background-color:#eed622;
+    width: 10vw;
+    height: 100px;
+}
+
+/* Tamanho em vh Corresponde a altura (height) da janela em porcentagem (responsivo) */
+.div-4{
+    background-color:#eed622;
+    width: 10vh;
+    height: 100px;
+}
+
+/* Tamanho em cm (centímetros) */
+.div-5{
+    background-color:#eed622;
+    width: 2.54cm;
+    height: 100px;
+}
+
+/* Tamanho em mm (milímetros) */
+.div-6{
+    background-color:#eed622;
+    width: 25.4mm;
+    height: 100px;
+}
+
+/* Tamanho em in (inch / polegadas) */
+.div-7{
+    background-color:#eed622;
+    width: 1in; /* 1in = 2.54cm */ 
+    height: 100px;
+}

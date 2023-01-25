@@ -1,0 +1,60 @@
+/*Definição: A propriedade display define se um elemento é tratado como um bloco ou elemento inline */
+
+/* Display block é o padrão (não precisa nem declarar). A borda demostra que ele ocupa toda a tela. Funciona em: div, form, header, footer, section e h<1-4> */
+.teste-display-padrao{
+    display: block;
+    border: 2px dotted #000000;
+    background-color: #dc6de8;
+}
+
+/* Display inline alinha os elementos horizontalmente na tela.Ele não aceita as propriedades height e width */
+.teste-display-inline{
+    display: inline;
+    border: 2px dotted #000000;
+    background-color: #dc6de8;
+}
+
+/* Display inline alinha os elementos horizontalmente na tela.Ele não aceita as propriedades height e width */
+.teste-display-inline-block{
+    display: inline-block;
+    border: 2px dotted #000000;
+    background-color: #dc6de8;
+    height: 50px;
+    width: 70px;
+}
+
+/* Display do tipo none oculta o o elemento */
+.teste-display-invisivel{
+    display: none; /* mude para block para visualizar */
+    background: #006eaa;
+    width: 20%;
+    height: 100px;    
+}
+
+/* A div vermelha tenta se reajustar, pois é % */
+.vermelho{ 
+    display: inline-block;   
+    background: #f83030;
+    width: 20%;
+    height: 100px;
+    
+}
+
+/* A div verde, mesmo oculta não tenta se reajustar, pois é px */
+.verde{   
+    /* Diferente do display:none, o elemento ainda oculpa o espaço */
+    visibility: hidden; /* mude para block para visualizar */
+    display: inline-block;
+    background: #007d2a;
+    width: 200px;
+    height: 100px;
+    
+}
+
+/* A div azul não tenta se reajustar, pois é px */
+.azul{
+    display: inline-block;
+    background: #006eaa;
+    width: 200px;
+    height: 100px;    
+}

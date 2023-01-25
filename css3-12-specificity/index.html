@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <!-- External tem a especificidade mais baixa -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+        
+        /* Internal tem especificidade acima de External e abaixo de Inline */
+        .cor1{
+            background: #3ed36d;
+        }
+  
+        .cor2{
+            background: #f735c7;
+        }        
+
+    </style>    
+</head>
+<body>
+
+    <!-- Inline tem a especificidade mais alta -->
+    <h1 class="cor1" style="background:#ff0000">Texto 1</h1>
+    <h1 class="cor2">Texto 2</h1>
+    <h1 class="cor3">Texto 3</h1>
+
+    <!-- Se você tiver duas ou mais regras conflitantes (com mesmo nome, por exemplo), o navegador irá considerar a seguinte ordem:
+
+    1º - id (ex: #design-1)
+    2º - class (ex: .design-1)
+    3º - seletor simples (p) -->
+    
+    <p id="design-1" class="design-1">Fred Barbosa</p>
+    <p id="design-1" class="design-1">Fred Barbosa</p>
+
+</body>
+</html>

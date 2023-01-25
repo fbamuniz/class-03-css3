@@ -1,0 +1,6 @@
+.contato{
+    @include flexCenter(column,#91d1f2);
+    /* Importa ou extende todas as propriedades do header */
+    @extend header;
+    /*background: $primary;*/
+}

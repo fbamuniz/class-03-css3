@@ -1,0 +1,35 @@
+/* Aplica o efeito a partir do atributo da tag, no caso border */
+table[border] {
+  background-color: #df9a9a;
+}
+
+/* Aplica o efeito a partir do valor do atributo da tag, no caso text */
+input[type=text] {
+    background-color: #61a872;
+}
+
+/* Aplica o efeito a partir do valor do atributo da tag, que contenham no title a palavra titulo */
+[title~=titulo] {
+    color: #ffffff;
+}
+
+/* Aplica o efeito a partir do valor do atributo da tag, que iniciem o elemento lang com en */
+[lang|=en] {
+    background: yellow;
+}
+
+/* Aplica o efeito em todos os elementos <a> com atributo href que iniciam com o texto https */
+a[href^="https"] {
+    background: #9730eb;
+}
+
+/* Aplica o efeito em todos os elementos <a> com atributo href que terminam com o texto .pdf */
+a[href$=".pdf"] {
+    background: #19be6e;
+}
+
+/* Aplica o efeito em todos os elementos <a> com atributo href que possuam em seu texto a palavra relatorio */
+a[href*="relatorio"] {
+    background: #6fb5ea;
+}
+

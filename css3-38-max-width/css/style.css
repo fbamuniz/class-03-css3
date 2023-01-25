@@ -1,0 +1,10 @@
+/*Definição: define uma largura máxima na tela, mas é responsivo se reajustado */
+
+.container-1{
+    border: 1px solid #ff0000;
+    max-width: 500px;
+}
+
+.container-2{
+    border: 1px solid #ff0000;
+}

@@ -1,0 +1,22 @@
+a.buttonCadastrar{
+    background: #73189a;
+    color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 5px solid #000000;
+}
+
+a.buttonCadastrar:hover{
+    background: #c258e2;
+}
+
+a.linkProfile{
+    color: #000000;
+    text-decoration: none;
+    cursor: help;
+}
+
+a.linkProfile:hover{
+    border-bottom: 5px dotted #ea5e5e;
+}

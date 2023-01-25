@@ -1,0 +1,19 @@
+/* Todas os elementos p, após a div receberão a formatação */
+div ~ p {
+    background-color: #62b970;
+}
+
+/* O primeiro elemento p, após a div será afetado */
+/*div + p {
+    background-color: #3d98cd;
+}*/
+
+/* Todos os elementos filhos de div serão afetados */
+/*div > p {
+    background-color: #dc6a6a;
+}*/
+
+/* Todos os elementos descendentes de div serão afetados */
+/*div p {
+    background-color: #d1c652;
+}*/

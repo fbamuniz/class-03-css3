@@ -1,0 +1,54 @@
+/* Existem 5 tipos de position:
+    - static: é o padrão
+    - relative: é relativo onde ela está
+    - fixed: fica fixo na tela, travado.
+    - absolute: em relação ao pai não fixed ou a tela (body)
+    - sticky: o elemento fica grudado no topo
+
+*/
+
+.container{
+    background: #2284b5;
+    width: 100%;
+    height: 400px;
+}
+
+.div-1{
+    position: relative;
+    /* vai amontar ao próximo elemento. Usa-se o z-index */
+    left: 60px;
+    z-index: 0;
+    /* não vai amontar ao próximo elemento */
+    /* margin-left: 20px; */
+    width: 30%;
+    height: 100px;
+    background: #c4a31e;
+}
+
+.div-2{
+    /* Desce junto com a barra de rolagem */
+    position:sticky;
+    top:0;
+    z-index: 1;
+    width: 30%;
+    height: 100px;
+    background: #a7e39c;
+}
+
+.div-3{
+    width: 30%;
+    height: 100px;
+    background: #e839ab;
+    position: absolute;
+    top:200px;
+    right: 300px;
+}
+
+.div-4{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    background: #fd8fff;
+}

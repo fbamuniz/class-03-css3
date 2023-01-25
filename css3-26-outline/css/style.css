@@ -1,0 +1,36 @@
+/* Outline é uma borda que não afasta o conteúdo, como acontece com o margin ou border */
+
+body{
+    /* Zerar os espaçamentos do body para aplicar o exercício */
+    margin: 0px;
+    padding: 0px;
+}
+
+.div-1{
+    width: 300px;
+    height: 150px;
+    /* O border e margin empurram o conteúdo para baixo */
+    border-bottom: 30px solid #000000;
+    border-right: 30px solid #000000;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    /* O outiline não empurra o conteúdo para baixo */
+    outline: 30px solid #ff0000;
+    /* O outline-offset é o espaço entre a margin/border e o outline */
+    outline-offset: 30px;
+}
+
+img{
+    width: 300px;
+    height: 150px;
+}
+
+table, td{
+    width: 300px;
+    height: 150px;
+}
+
+input{
+    width: 300px;
+    height: 150px;
+}

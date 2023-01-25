@@ -1,0 +1,39 @@
+p.pseudo-1::before{
+    content:"Início ";
+    color: #f04e4e;
+}
+
+p.pseudo-2::after{
+    content:" Fim";
+    color: #593eed;
+}
+
+p.pseudo-3::first-letter{
+    text-transform: uppercase;
+    color: #f04e4e;
+    font-size: 45px;
+}
+
+p.pseudo-4::first-line{
+    background-color: #a79af1;
+}
+
+::selection{
+    color: #ffffff;
+    background-color: #245b0d;
+}
+
+/*
+
+Para compatibilidade com outros navegadores, use se necessário o -moz- ou o -webkit- na frente do seletor, ex:
+
+::-moz-selection{
+    color: #ffffff;
+    background-color: #245b0d;
+}
+
+::-webkit-selection{
+    color: #ffffff;
+    background-color: #245b0d;
+}
+*/

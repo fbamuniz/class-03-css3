@@ -1,0 +1,35 @@
+.flex-container-1{
+    /* Lembre-se que display block é o padrão */
+    display: flex;    
+    background: #7eb769;
+    height: 600px;    
+    
+    /* O flex-direction indica a direção dos itens (eixo principal): row, column etc */
+    flex-direction: row;
+    /* O flex-wrap permite que os itens sejam jogados em outra linha, caso não haja mais espaço. Evita criar uma barra de rolagem. Ótimo pra blogs! */
+    flex-wrap: wrap;
+    /* flex-flow é um shorthand do flex-wrap + flex-direction*/
+    /* flex-flow: row wrap */
+        
+    /* O justify-content define o alinhamento dos itens ao longo do eixo principal (se row, column etc) */
+    justify-content: center;
+    /* O align-items define o alinhamento dos itens perpendicularmente em relação ao eixo principal (se row, column etc) */
+    align-items: center;
+    /* Alinha as linhas do container */
+    align-content:center;
+}
+
+.flex-container-1 div{
+    /* Com calc(1), as divs se ajustam uniformemente */
+    flex-grow:calc(1);
+    background: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+}
+
+/*
+Simulador Flex: https://www.treinaweb.com.br/blog/css-flexbox-um-guia-interativo-parte-1-containers
+*/

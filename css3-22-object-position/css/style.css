@@ -1,0 +1,21 @@
+/* proporção original */
+.img-0 {
+    border: 1px solid #ff0000;
+    object-fit: none;
+  }
+
+/* Perdeu a proporção original */
+.img-1{
+    border: 1px solid #ff0000;
+    width: 200px;
+    height: 300px;
+  }
+
+/* Manteve as dimensões, efetuando um recorte na imagem. O object-position reajusta a imagem na janela de 200x300 */  
+.img-2{
+    border: 1px solid #ff0000;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 80% 100%;
+  }

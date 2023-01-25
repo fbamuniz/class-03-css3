@@ -1,0 +1,41 @@
+.img-01{
+    filter: grayscale(1);
+}
+
+.img-02{
+    filter: blur(2px)
+}
+
+.img-03{
+    filter: brightness(3)
+}
+
+.img-04{
+    filter: contrast(0.2)
+}
+
+.img-05{
+    /* distX, distY, tam, cor */
+    filter:drop-shadow(10px 5px 1px #000000)
+}
+
+.img-06{
+    /* Em matiz o controle é na rotação */
+    filter:hue-rotate(180deg)
+}
+
+.img-07{
+    filter:invert()
+}
+
+.img-08{
+    filter:opacity(0.5)
+}
+
+.img-09{
+    filter:saturate(3)
+}
+
+.img-10{
+    filter:sepia(100)
+}

@@ -1,0 +1,51 @@
+.div-1{
+    width: 300px;
+    height: 150px;
+}
+
+img{
+    width: 300px;
+    height: 150px;
+}
+
+table, td, th{
+    border: 1px solid #000000;
+}
+
+thead{
+    background-color: #c0c0c0;
+}
+
+tfoot{
+    background-color: #c0c0c0;
+}
+
+table{
+    width: 500px;
+    /* distribui a divisão da dizima periódica */
+    table-layout: fixed;
+    /* Sobre a separação das células. Use separate pra testar */
+    border-collapse:collapse;
+    /* Espaçamento horizontal e vertical (XxY). Use separate pra testar */
+    border-spacing: 20px 5px;
+    /* Oculta uma célula vazia */
+    /* empty-cells: hide; */
+
+}
+
+td, th{
+    height: 50px;
+    /* Conteúdo na esquerda ao centro */
+    vertical-align: middle;
+     /* Conteúdo ao centro */
+    text-align: center;
+}
+
+tr:nth-child(even){
+    background: #d1e0ab;
+}
+
+input{
+    width: 300px;
+    height: 150px;
+}

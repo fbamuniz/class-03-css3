@@ -1,0 +1,29 @@
+.div-1{
+    width: 300px;
+    height: 150px;
+    background-color: #c0c0c0;  
+    background-image: url("https://picsum.photos/id/203/300/150");
+    /* cover tenta encaixar o conteúdo na div */
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    /* shorthand (forma abreviada)    
+    background: #c0c0c0 url("https://picsum.photos/id/203/300/150") no-repeat center;
+    */
+}
+
+img{
+    width: 300px;
+    height: 150px;
+}
+
+table, td{
+    width: 300px;
+    height: 150px;
+    background-color:#c0c0c0;
+}
+
+input{
+    width: 300px;
+    height: 150px;
+}

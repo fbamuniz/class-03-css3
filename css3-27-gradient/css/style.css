@@ -1,0 +1,30 @@
+#id-gradient-1{
+    width: 100%;
+    height: 300px;
+    background: #ff1234;
+}
+
+#id-gradient-2{
+    width: 100%;
+    height: 300px;
+    /* Pode acrescentar mais de duas cores */
+    background-image: linear-gradient(to right, #ff0000,#0000ff);
+}
+
+#id-gradient-3{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to top right, #ff0000,#0000ff);
+}
+
+#id-gradient-4{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(180deg, #ff0000,#0000ff);
+}
+
+#id-gradient-5{
+    width: 100%;
+    height: 300px;
+    background-image: radial-gradient(#ffffff,#c0c0c0);
+}

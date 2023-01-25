@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* Sass: Syntactically Awesome Style Sheets */ /* Permite criar variáveis */
+/* Permite importação */
+/* O mixin funciona como uma função */
+header, .contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  background: #845d5d;
+  /*background: $primary;*/
+  color: #ffffff;
+  /* Permite agrupamento */
+}
+header button, .contato button {
+  background: #ff0099;
+}
+header button:hover, .contato button:hover {
+  background: #00AA55;
+}
+header button::after, .contato button::after {
+  content: " como ADM";
+}
+header p, .contato p {
+  color: #000000;
+}
+header h1, .contato h1 {
+  color: #00AA55;
+}
+
+.contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: #91d1f2;
+  /* Importa ou extende todas as propriedades do header */
+  /*background: $primary;*/
+}/*# sourceMappingURL=style.css.map */

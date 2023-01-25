@@ -1,0 +1,31 @@
+/* O mixin funciona como uma função */
+@mixin flexCenter($direction, $bg){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: $direction;
+    background: $bg;
+}
+
+header{
+    @include flexCenter(row,#845d5d);
+    /*background: $primary;*/
+    color: #ffffff;
+    /* Permite agrupamento */    
+    button{
+        background: $secondary;
+        &:hover{
+            background: #00AA55; 
+        }
+        &::after{
+            content: " como ADM";
+        }
+    }    
+    p{
+        color: #000000;
+    }    
+    h1{
+        color: #00AA55;
+    }
+}

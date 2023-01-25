@@ -1,0 +1,11 @@
+:root {
+    --verde: #76b67c;
+    --fonte: Arial; 
+}
+
+.container{
+    width: 500px;
+    height: 100px;
+    background-color: var(--verde);
+    font-family: var(--fonte);
+}

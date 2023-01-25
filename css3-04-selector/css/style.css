@@ -1,0 +1,46 @@
+/* O asterisco aplica o CSS em todas as tags da página */
+*{
+    padding: 20px;
+}
+
+/* CSS aplicado no body */
+body{
+    background: #c0c0c0;
+}
+
+/* CSS aplicado em todos os h1 */
+h1{
+    color: #331a3d; 
+    font-size:25px;
+}
+
+/* Exemplo de classe CSS (não utilize somente números) */
+.paragrafo-01{
+    text-align: center;
+}
+
+/* Exemplo de classe CSS */
+.paragrafo-cor{
+    color: #ff0000;
+}
+
+/* Exemplo de classe CSS */
+.fonte-25{
+    font-size: 25px;
+}
+
+/* Exemplo de classe CSS específica para um elemento */
+p.fonte-30{
+    font-size: 30px;
+}
+
+/* Exemplo de id CSS (não utilize somente números) */
+#destaque{
+    color: #118b38;
+    background: #e4d422;    
+}
+
+/* Também é possível aplicar em mais de uma tag, class ou id */
+h2, h3 {
+    color: #b238de;
+}

@@ -1,0 +1,96 @@
+body{
+    background-color: blueviolet;
+}
+
+  #anima-div {
+    width: 250px;
+    height: 250px;
+    background: #95e2e7;
+    position: relative;
+    animation: mov-div 5s infinite;
+    /*border-radius: 0%;*/
+  }
+  
+  
+  /*@keyframes mov-div {
+    from {top: 0px;}
+    to {top: 300px;}
+  }*/
+
+  /*@keyframes mov-div {
+    0%   {top: 0px;}
+    25%  {top: 250px;}
+    50%  {top: 50px;}
+    75%  {top: 500px;}
+    100% {top: 0px;}
+  }*/
+
+  /*@keyframes mov-div {
+    0%   {top: 0px; left: 0px; background: red;}
+    25%  {top: 0px; left: 300px; background: blue;}
+    50%  {top: 300px; left: 300px; background: yellow;}
+    75%  {top: 300px; left: 0px; background: green;}
+    100% {top: 0px; left: 0px; background: red;}
+  }*/
+
+  @keyframes mov-div {
+    0%   {top: 0px; background: red; width: 100px;}
+    100% {top: 0px; background: yellow; width: 300px;}
+  }
+
+  /*--*/
+
+  /*#anima-div {
+    width: 250px;
+    height: 250px;
+    background: #95e2e7;
+    position: relative;
+  }
+ 
+  #anima-div:active {
+    width: 250px;
+    height: 250px;
+    background: #95e2e7;
+    position: relative;
+    animation: mov-div 250ms;
+  }
+  
+  #anima-div:active {
+    width: 250px;
+    height: 250px;
+    background: #95e2e7;
+    position: relative;
+    animation: mov-div 250ms;
+  }  
+  
+  /*@keyframes mov-div {
+    from {top: 0px;}
+    to {top: 300px;}
+  }*/
+
+  /*@keyframes mov-div {
+    0%   {top: 0px;}
+    25%  {top: 250px;}
+    50%  {top: 50px;}
+    75%  {top: 500px;}
+    100% {top: 0px;}
+  }*/
+
+  /*@keyframes mov-div {
+    0%   {top: 0px; left: 0px; background: red;}
+    25%  {top: 0px; left: 300px; background: blue;}
+    50%  {top: 300px; left: 300px; background: yellow;}
+    75%  {top: 300px; left: 0px; background: green;}
+    100% {top: 0px; left: 0px; background: red;}
+  }*/
+
+  /*@keyframes mov-div {
+    0%   {top: 0px; background: red; width: 100px;}
+    100% {top: 200px; background: yellow; width: 300px;}
+  }*/
+
+   /*@keyframes mov-div {
+    25%   { transform: translateX(5px);}
+    50%   { transform: translateX(-4px);}
+    75%   { transform: translateX(4px);}
+    }*/

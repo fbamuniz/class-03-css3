@@ -1,0 +1,26 @@
+.div-1{
+    width: 300px;
+    height: 150px;
+    /* O 1px é a direção vertical, o 2px horizontal e o 5px é o blur */
+    text-shadow:1px 2px 5px #000000
+}
+
+img{
+    width: 300px;
+    height: 150px;
+    box-shadow: 5px 5px 25px;
+}
+
+table, td{
+    width: 300px;
+    height: 150px;
+    /* Mistutando sombras no texto */
+    text-shadow:0px 0px 3px #3971be, 2px 2px 3px #c329a6
+}
+
+input{
+    width: 300px;
+    height: 150px;
+    /* Mistutando sombras no elemento */
+    box-shadow: 0px 4px 8px 0px #f3e220, 0px 6px 20px 0px #ff0000;
+}

@@ -1,0 +1,28 @@
+/* proporção original */
+.img-0 {
+    border: 1px solid #ff0000;
+    object-fit: none;
+  }
+
+/* Perdeu a proporção original */
+.img-1{
+    border: 1px solid #ff0000;
+    width: 200px;
+    height: 300px;
+  }
+
+/* Manteve as dimensões, efetuando um recorte na imagem */
+.img-2{
+    border: 1px solid #ff0000;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+/* Manteve a propoporção, ocupando a mesma dimensão */  
+.img-3{
+    border: 1px solid #ff0000;
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+  }

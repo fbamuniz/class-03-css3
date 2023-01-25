@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+
+#div1 {   
+    /* Reduz 100px na direita, indiferente do tamanho da janela */
+    width: calc(100% - 100px);
+    border: 1px solid #000000;    
+  }
+
+#div2 {
+    border: 1px solid #000000;  
+    /* Aumentará no máximo 50% da tela ou 600px */
+    width: max(50%, 600px);
+}
+
+#div3 {
+    border: 1px solid #000000;  
+    /* Reduzirá no máximo 50% da tela ou 600px */
+    width: min(50%, 600px);
+}

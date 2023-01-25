@@ -1,0 +1,25 @@
+.div-1{
+    width: 300px;
+    height: 150px;
+}
+
+img{
+    width: 300px;
+    height: 150px;
+}
+
+img:active{
+    width: 300px;
+    height: 150px;
+    transform: scale(0.9);
+}
+
+table, td{
+    width: 300px;
+    height: 150px;
+}
+
+input{
+    width: 300px;
+    height: 150px;
+}

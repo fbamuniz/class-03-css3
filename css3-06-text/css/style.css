@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto:wght@100&display=swap');
+
+p{
+    font-family: 'Roboto', 'Moon Dance', 'Arial';
+    font-size: 18px;
+    font-style:italic;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #0ca21b;
+    text-align: justify;
+    text-transform:none;
+    letter-spacing: none;
+    line-height: none;
+    word-break: break-all;
+    word-spacing: none;
+    text-indent: 50px;
+    padding: 30px 30px 30px 30px;
+    /* Não quebra a linha */
+    /*white-space: nowrap;*/
+    /* Corta o texto no limite da div */
+    /*overflow: hidden;*/
+    /* Aplica reticências */
+    /*text-overflow: ellipsis;*/
+}
+
+.div-1{
+    width: 300px;
+    height: 150px;
+    padding: 0px 0px 80px 0px;
+    margin: 0px 0px 80px 0px;
+}
+
+img{
+    width: 300px;
+    height: 150px;
+}
+
+table, td{
+    width: 300px;
+    height: 150px;
+}
+
+input{
+    width: 300px;
+    height: 150px;
+}
