@@ -21,7 +21,7 @@ p.fonte-30{
     font-size: 30px;
 }
 
-/* Exemplo de id CSS (não utilize somente números) */
+/* Exemplo de id CSS */
 #destaque{
     color: #118b38;
     background: #e4d422;    
