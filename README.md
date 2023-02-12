@@ -8,6 +8,7 @@ No inicio, o HTML era a única linguagem utilizada para criar sites. O Cascading
 
 Em suma, o CSS é uma linguagem que determina a aparência (layout) de paginas para a Web. Esta tecnologia permite ao usuário criar paginas da Web com códigos mais fáceis de elaborar que os códigos HTML. Estes códigos permitem fazer as aplicações com facilidade. O CSS controla as opções de margem, linhas, cores, alturas, larguras, imagens e posicionamento, sem a necessidade do HTML. 
 
+Abaixo, um exemplo de código CSS:
 ```css
 
 /* Exemplo de classe CSS */
