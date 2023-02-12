@@ -1,53 +1,32 @@
-# jQuery3
+# CSS3
 ![NPM](https://img.shields.io/npm/l/react)
 # Introdução
 
-Em 2006, John Resig era um desenvolvedor Web que trabalhava em seus próprios projetos. Ele estava frustrado com a dificuldade de escrever códigos em JavaScript que funcionasse em vários navegadores, então decidiu escrever sua própria biblioteca JavaScript para resolver os seus problemas. Eis que surgi o jQuery. Em 16 de janeiro de 2006, John Resig deu uma palestra sobre sua nova biblioteca no BarCamp em Nova York, para um pequeno grupo de desenvolvedores Web, e publicou isso em seu blog.
+Quando o HTML foi criado, a intenção não era de forma alguma, formatar informação. A medida que o HTML foi se popularizando e evoluindo, foram incluídas em suas qualidades, o domínio de controlar algumas aparências para o documento. Isso fez com que a linguagem ficasse muito complexa, mais dificil para entender e manter. Outro problema era que os Web Browsers da época tinham diferenças de implementações, o que dificultava a visualização dos sites, trazendo menos controle na navegação pela Web.
 
-O jQuery é então uma biblioteca de funções em JavaScript que interage com o HTML, desenvolvida para simplificar os scripts interpretados no navegador do usuário (client-side). Usada por cerca de 77% dos 10 mil sites mais visitados do mundo, jQuery é a mais popular das bibliotecas JavaScript. O jQuery é uma biblioteca de código aberto (open source) e possui licença dual, fazendo uso da Licença MIT ou da GNU General Public License versão 2. 
+No inicio, o HTML era a única linguagem utilizada para criar sites. O Cascading Style Sheets (CSS) foi proposto pela primeira vez em outubro de 1994, por Hakon Lie, que queria facilitar a programação de sites. Em 1995 o CSS1 foi lançado pela W3C (World Wide Web Consortium) e o projeto foi liderado por Hakon e Bert Bos, um desenvolvedor que na época trabalhava em um Web Browser chamado Argo. 
 
-A sintaxe do jQuery foi desenvolvida para simplificar a navegação em documentos HTML, a seleção de elementos DOM, criar animações, manipular eventos, desenvolver aplicações AJAX e criação de plugins sobre ela. Permitindo aos desenvolvedores criarem camadas de abstração para interações de baixo nível de modo simplificado em aplicações Web de grande complexidade.
+Em suma, o CSS é uma linguagem que determina a aparência (layout) de paginas para a Web. Esta tecnologia permite ao usuário criar paginas da Web com códigos mais fáceis de elaborar que os códigos HTML. Estes códigos permitem fazer as aplicações com facilidade. O CSS controla as opções de margem, linhas, cores, alturas, larguras, imagens e posicionamento, sem a necessidade do HTML. 
 
-O jQuery é leve, seu tamanho é em torno de 30kb, extensível, oferece suporte a plug-ins e conta ainda com uma grande equipe de desenvolvedores que vem diariamente adicionando novos recursos e funções a está biblioteca, nos disponibilizando uma grande quantidade de controles para interface.
+A linguagem de estilos ganhou muito destaque entre 1997 e 1998, neste período ficou conhecido por grande parte dos desenvolvedores Web. No final do mesmo ano, eles lançaram a recomendação do CSS de nível 2, a segunda versão da folha de estilo para Web. Apesar de lançada em 2010, o CSS3 é a sua última versão e ela veio para acrescentar de forma melhorada as versões anteriores. 
 
-**Podemos utilizar a jQuery para**:
+A melhor novidade do CSS3 é em relação a flexibilidade na criação de layouts, trazendo mais autonomia para os desenvolvedores Web. Com o CSS3, é possível elaborar cantos arredondados, sombras, efeitos gradientes, animações e efeitos de transição, dentre outras opções.
 
-- Adicionarmos efeitos visuais e animações;
-- Acessarmos e manipularmos o DOM;
-- Carregarmos componentes Ajax;
-- Provermos interatividade;
-- Fazer alteração de conteúdo;
-- Simplificarmos tarefas JavaScript.
+**Algumas vantagens do CSS:**
 
-**Suporte ao jQuery**
+- A partir de um só documento do CSS, controlam-se vários documentos .html.
+- Facilidade de criação dos layouts, que não precisam de códigos muito complicados.
+- linguagem de rápido aprendizado.
 
-O jQuery foi desenvolvido para ser uma biblioteca com suporte a qualquer navegador Web. Ele facilita a nós desenvolvedores a difícil tarefa de desenvolvermos aplicações em JavaScript, tendo que atingir a enorme quantidade de navegadores em que nossa programação poderá ser executada. Como sabemos, cada navegador possui seu próprio conjunto de características de implementação que pode dificultar mais ainda, de acordo com a variação de plataforma e sistema operacional onde esteja executando. Já com o jQuery, nossa programação é única e transparente.
+No vídeo abaixo da Hostinger, é apresentado um pequeno resumo do que é o CSS e sua aplicabilidade.
 
-Com o jQuery possuímos suporte também ao CSS3, onde podemos utilizar seletores CSS3, mesmo que o navegador não tenha suporte a uma determinada folha de estilo. Isso é possível porque o próprio jQuery implementa os seletores CSS3, o que faz com que ele seja independente do navegador em que estiver sendo executado.
-
-**Construtor jQuery**
-
-Com o jQuery temos que utilizar a função $() para encontrarmos um elemento HTML dentro da aplicação e utilizarmos as funções da biblioteca. Essa função é tecnicamente conhecida como **construtor** ou função construtora e ela estará presente em todas as aplicações que utilizarmos o jQuery.
-
-É denominada desse modo para ser fácil de decorar e o fato de se chamar $ evita a possibilidade de ocorrer conflitos com outras funções da biblioteca do usuário. Ocasionalmente podemos vir a utilizar alguma outra biblioteca que também tenha como uso uma função chamada $. Caso isso aconteça, podemos usar como alternativa a função jQuery().
-
-O construtor faz uso do seguinte parâmetro, onde o alvo é um seletor CSS para TAG, ID ou classe. Vejamos alguns exemplo de sua utilização.
-```javascript
-$('h1')
-$('p')
-$('#conteudo')
-$('.teste')
-```
-Muitos desenvolvedores Web amaram a simplicidade e o poder do jQuery, e a biblioteca de John logo ficou popular. Hoje, jQuery é a biblioteca JavaScript mais popular e é mantida pela Fundação jQuery, formada por uma grande equipe de voluntários. 
-
-No vídeo abaixo da Hostinger Brasil, é apresentado um pequeno resumo do que é o jQuery e sua aplicabilidade. 
-
-[![Assista ao vídeo](https://img.youtube.com/vi/AeCczbOctM8/maxresdefault.jpg)](https://www.youtube.com/watch?v=AeCczbOctM8)
+[![Assista ao vídeo](https://img.youtube.com/vi/CTjUpZqTJDg/maxresdefault.jpg)](https://www.youtube.com/watch?v=CTjUpZqTJDg)
 
 ## Referências
 
-- Pausa para a história: como John criou o jQuery? Khan Academy, disponível em: [https://pt.khanacademy.org](https://pt.khanacademy.org/computing/computer-programming/html-js-jquery/jquery-dom-access/a/history-of-jquery). Acesso em: 28 de jan. de 2023.
-- jQuery Tutorial. Devmedia, disponível em: [https://www.devmedia.com.br](https://www.devmedia.com.br/jquery-tutorial/27299). Acesso em: 28 de jan. de 2023.
+- Uma breve história do CSS. Tableless, disponível em: [https://tableless.com.br/](https://tableless.com.br/uma-breve-historia-do-css/). Acesso em: 12 de fev. de 2023.
+- Cascading Style Sheets (CSS). Infoescola, disponível em: [https://www.infoescola.com](https://www.infoescola.com/informatica/cascading-style-sheets-css/). Acesso em: 12 de fev. de 2023.
+- O que é CSS? Guia Básico para Iniciantes. Hostinger, disponível em: [https://www.hostinger.com.br](https://www.hostinger.com.br/tutoriais/o-que-e-css-guia-basico-de-css#:~:text=carregamento%20da%20p%C3%A1gina.-,CSS3,forma%20melhorada%20das%20vers%C3%B5es%20anteriores.). Acesso em: 12 de fev. de 2023.
 
 # Como executar
 
