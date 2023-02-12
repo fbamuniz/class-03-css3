@@ -8,6 +8,31 @@ No inicio, o HTML era a única linguagem utilizada para criar sites. O Cascading
 
 Em suma, o CSS é uma linguagem que determina a aparência (layout) de paginas para a Web. Esta tecnologia permite ao usuário criar paginas da Web com códigos mais fáceis de elaborar que os códigos HTML. Estes códigos permitem fazer as aplicações com facilidade. O CSS controla as opções de margem, linhas, cores, alturas, larguras, imagens e posicionamento, sem a necessidade do HTML. 
 
+```css
+
+/* Exemplo de classe CSS */
+.fonte-25{
+    font-size: 25px;
+}
+
+/* Exemplo de classe CSS específica para um elemento */
+p.fonte-30{
+    font-size: 30px;
+}
+
+/* Exemplo de id CSS (não utilize somente números) */
+#destaque{
+    color: #118b38;
+    background: #e4d422;    
+}
+
+/* Também é possível aplicar em mais de uma tag, class ou id */
+h2, h3 {
+    color: #b238de;
+}
+
+```
+
 A linguagem de estilos ganhou muito destaque entre 1997 e 1998, neste período ficou conhecido por grande parte dos desenvolvedores Web. No final do mesmo ano, eles lançaram a recomendação do CSS de nível 2, a segunda versão da folha de estilo para Web. Apesar de lançada em 2010, o CSS3 é a sua última versão e ela veio para acrescentar de forma melhorada as versões anteriores. 
 
 A melhor novidade do CSS3 é em relação a flexibilidade na criação de layouts, trazendo mais autonomia para os desenvolvedores Web. Com o CSS3, é possível elaborar cantos arredondados, sombras, efeitos gradientes, animações e efeitos de transição, dentre outras opções.
