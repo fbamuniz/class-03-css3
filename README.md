@@ -36,6 +36,8 @@ h2, h3 {
 
 A linguagem de estilos ganhou muito destaque entre 1997 e 1998, ganhando grande destaque por parte dos desenvolvedores Web. No final do mesmo ano, eles lançaram a versão CSS2. Por fim, apesar de lançada somente em 2010, a versão  CSS3 é a sua última versão e ela veio para acrescentar de forma melhorada as versões anteriores. A melhor novidade do CSS3 é em relação a flexibilidade na criação de layouts, trazendo mais autonomia para os desenvolvedores Web. Com o CSS3, é possível elaborar cantos arredondados, sombras, efeitos gradientes, animações e efeitos de transição, dentre outras opções.
 
+<img src="https://i.pinimg.com/originals/a7/12/3a/a7123a124ba35c74c421e1678e2bb677.gif" width="300">
+
 **Algumas vantagens do CSS:**
 
 - A partir de um só documento do CSS, controlam-se vários documentos .html.
