@@ -11,7 +11,7 @@ Em suma, o CSS é uma linguagem que determina a aparência (layout) de paginas p
 Abaixo, um exemplo de código CSS:
 ```css
 
-/* Exemplo de classe CSS */
+/* Exemplo de classe CSS FRED */
 .fonte-25{
     font-size: 25px;
 }
