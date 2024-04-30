@@ -11,12 +11,13 @@
     /* flex-flow é um shorthand do flex-wrap + flex-direction*/
     /* flex-flow: row wrap */
         
-    /* O justify-content define o alinhamento dos itens ao longo do eixo principal (se row, column etc) */
+    /* O justify-content define o alinhamento dos itens horizontalmente. Use flex-start, center e flex-end  */
     justify-content: center;
-    /* O align-items define o alinhamento dos itens perpendicularmente em relação ao eixo principal (se row, column etc) */
-    align-items: center;
-    /* Alinha as linhas do container */
+    /* O align-items define o alinhamento das linhas verticalmente. Use flex-start, center e flex-end */
     align-content: center;
+    /* O align-items define o alinhamento dos itens verticalmente. Use flex-start, center e flex-end */
+    align-items: center;
+    
 }
 
 .flex-container-1 div{
