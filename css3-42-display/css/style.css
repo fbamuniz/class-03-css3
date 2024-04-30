@@ -7,14 +7,15 @@
     background-color: #dc6de8;
 }
 
-/* Display inline alinha os elementos horizontalmente na tela.Ele não aceita as propriedades height e width */
+/* Display inline alinha os elementos horizontalmente na tela.Ele não aceita as propriedades height e width, pois são dimensionados com base no conteúdo dentro deles. */
 .teste-display-inline{
     display: inline;
     border: 2px dotted #000000;
     background-color: #dc6de8;
+    
 }
 
-/* Display inline alinha os elementos horizontalmente na tela.Ele não aceita as propriedades height e width */
+/* Display inline alinha os elementos horizontalmente na tela. Nele você pode definir largura, altura e outros. */
 .teste-display-inline-block{
     display: inline-block;
     border: 2px dotted #000000;
