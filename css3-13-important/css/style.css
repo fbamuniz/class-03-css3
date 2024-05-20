@@ -1,38 +1,27 @@
-/* A regra !important ignora a ordem das especificidades e as regras conflitantes */
-
-.cor1{
-    background: #eae353 !important;
-}
-
-.cor2{
-    background: #3888d3;
-}
-
-.cor3{
-    background: #929292;
-}
-
-/* Se você tiver duas ou mais regras conflitantes (com mesmo nome, por exemplo), o navegador irá considerar a seguinte ordem:
-
-1º - id (ex: #design-1)
-2º - class (ex: .design-1)
-3º - seletor simples (p) */
-
 #design-1{
-    color: #3888d3;
+    color:blue;
 }
 
 .design-1{
-    color: #4f964b;
+    color:coral;
 }
 
 p{
-    color: #aba643;
+    color:gold !important;
 }
 
 /*
-Resumo:
-    - Primeiro verifique a especificidade: inline, internal e external
-    - Depois verifique a regra: id, class e seletor simples
+Regra do !importante:
+- Ignora a regra da prioridade e especificidade
+
+Regra da prioridade:
+1º inline
+2º internal
+3º external
+
+Regra da especificidade:
+1º id
+2º class
+3º seletor de elemento
 
 */

@@ -11,6 +11,10 @@ p{
 }
 
 /*
+Regra da prioridade:
+1º inline
+2º internal
+3º external
 
 Regra da especificidade:
 1º id
